@@ -1,0 +1,18 @@
+# CI for this service: the platform's build workflow does everything (runbook 4.1).
+name: ci
+
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["deploy/**", "**.md"]   # deploy/ is written by promotion (4.6), not code
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  build:
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    uses: joneskwameosei-org/platform-workflows/.github/workflows/build.yml@v1
