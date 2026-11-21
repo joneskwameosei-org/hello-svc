@@ -1,0 +1,9 @@
+apiVersion: v2
+name: hello-svc
+description: hello-svc on the golden path; everything comes from the platform's library chart (runbook 4.2)
+version: 0.1.0
+appVersion: "0.1.0"
+dependencies:
+  - name: platform-lib
+    version: 0.1.0
+    repository: oci://ghcr.io/joneskwameosei-org/charts

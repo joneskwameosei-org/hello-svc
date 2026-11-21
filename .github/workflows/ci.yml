@@ -4,7 +4,7 @@ name: ci
 on:
   push:
     branches: [main]
-    paths-ignore: ["deploy/**", "**.md"]   # deploy/ is written by promotion (4.6), not code
+    paths-ignore: ["deploy/**", "chart/**", "**.md"]   # deploy/ is written by promotion (4.6), not code
   workflow_dispatch:
 
 permissions: {}

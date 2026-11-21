@@ -1,0 +1,4 @@
+# Only what differs from the platform's defaults (platform-lib's _helpers.tpl lists them).
+# The image digest is set per environment (4.4-4.6), never here.
+image:
+  repository: ghcr.io/joneskwameosei-org/hello-svc
