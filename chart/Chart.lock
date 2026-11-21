@@ -1,6 +1,6 @@
 dependencies:
 - name: platform-lib
   repository: oci://ghcr.io/joneskwameosei-org/charts
-  version: 0.1.0
-digest: sha256:17ee001486fef2ed5ab6d831d9a89898836b789830ba9935217129f5ea7e92b2
-generated: "2026-11-21T04:26:58.979624801Z"
+  version: 0.2.0
+digest: sha256:7c7d82a6cbb852209dcf48218fc6a18051df64e8228f9e80e3b7f55d9e8c9559
+generated: "2026-11-21T05:21:59.903623387Z"
